@@ -24,10 +24,6 @@ header{
 .hamburguesa{
     width: 15%;
 }
-.exit{
-    width: 30%;
-    float: right;
-}
     
 nav{
     transform: translateX(550px);
@@ -42,25 +38,22 @@ nav{
 .mostrarMenu{
     transform: translateX(0);
 }
-nav > ul{
+nav ul{
     height: 100vh;
     margin-left: 10px;
     display: flex;
     flex-direction: column;
     list-style: none;
-
+    justify-content: space-around;
 }
 .logo{
     width: 30%;
 }
-nav> ul >li {
-    margin: 20px 10px;
-}
 
 nav ul li a{
 
-    /* margin-left: 15px; */
-    font-size: 20px;
+    margin-left: 15px;
+    font-size: 25px;
     color: #fff;
     text-decoration: none;
 }
@@ -69,35 +62,6 @@ nav ul li a:hover{
     text-decoration: none;
     color: #fff;
 }
-
-.crear-cuenta {
-    display: none;
-    height: 50px;
-    top: 35px; /*48*/
-    left: 0;
-    width: 145px;
-    background-color: #B70727;
-}
-
- .idioma-opciones{
-    display: none; 
-    height: 100px;
-    top: 48px;
-    left: 0; /*10*/
-    width: 50px;
-    background-color: #B70727;
-}
-.mostrarCrearCuenta{
-    display: block;
-}
-
-.mostrar{
-    display: inline;
-}
-.crear-cuenta li a, .idioma-opciones li a{
-    line-height: 50px;
-}
-
 
 .wave{
     position: absolute;
@@ -114,7 +78,7 @@ nav ul li a:hover{
     z-index: 500;
     height: 350px;
     color: #fff;
-    background-color:#142E70 ;
+    background-color:#B70727 ;
     
 }
 
@@ -162,8 +126,6 @@ nav ul li a:hover{
     background-color:#B70727;
 }
 
-
-
 /****************BENFICIOS*******************/
 
 .beneficios{
@@ -206,9 +168,6 @@ footer{
     color: #fff;
     text-decoration: none;
     font-size: 14px;
-}
-footer p{
-    color: #fff;
 }
 .logo-footer{
     width: 40%;
@@ -274,17 +233,6 @@ footer p{
     .wave{
         top:400px;
     }
-    nav> ul >li {
-        margin: 20px 0px;
-    }
-
-    .crear-cuenta{
-        padding-left: 5px;
-    }
-    .idioma-opciones{
-        width: 80px;
-        padding-left: 5px;
-    }
 }
 
 
@@ -302,19 +250,7 @@ footer p{
         position: absolute;
         top: 490px;
     }
-    .crear-cuenta{
-        background-color: #2C2778;
-        top: 48px;
-        padding-left: 10px;
-    }
     
-    
-     .idioma-opciones{
-        top: 48px;
-        width: 100px;
-        background-color: #2C2778;
-        padding-left: 10px;
-    }
     
     
     .contenedor-titulos {
@@ -406,9 +342,6 @@ footer p{
     .carateristicas img{
         width: 30%;
     }
-    .mundo{
-        width: 28%;
-    }
 
     .carateristicas h2{
         font-size: 38px;
@@ -417,9 +350,6 @@ footer p{
         font-size: 16px;
         width: 280px;
 
-    }
-    .beneficios{
-        padding-left: 400px;
     }
     
 }

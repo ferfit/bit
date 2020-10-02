@@ -60,7 +60,7 @@ nav> ul >li {
 nav ul li a{
 
     /* margin-left: 15px; */
-    font-size: 20px;
+    font-size: 25px;
     color: #fff;
     text-decoration: none;
 }
@@ -161,8 +161,6 @@ nav ul li a:hover{
 .linea2{
     background-color:#B70727;
 }
-
-
 
 /****************BENFICIOS*******************/
 
@@ -405,9 +403,6 @@ footer p{
     }
     .carateristicas img{
         width: 30%;
-    }
-    .mundo{
-        width: 28%;
     }
 
     .carateristicas h2{
