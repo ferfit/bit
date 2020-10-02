@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+}
+
+nav, h1, h2{
+    font-family: 'Oswald', sans-serif;
+}
+p{
+    font-family: 'Open Sans', sans-serif;
+}
