@@ -10,6 +10,7 @@
     color: #162A7D;
 }
 .contenedor-marcablanca h2{
+    font-size: 40px;
     color: #B70727;
 }
 .contenedor-marcablanca > p{
@@ -27,20 +28,43 @@
 }
 @media (min-width: 768px){
     .contenedor-marcablanca h1{
-        font-size: 60px;
+        font-size: 40px;
 
+    }
+    .contenedor-blanca-textos p{
+        font-size: 30px;
+        color: #162A7D;
     }
     
     .img-marca{
         width: 30%;
     }
     .contenedor-marcablanca h2{
+        font-size: 40px;
         color: #B70727;
     }
     .contenedor-marcablanca > p{
-        font-size: 40px;
+        font-size: 30px;
         color: #162A7D;
         
     
     }
+}
+@media (min-width: 1920px){
+    .contenedor-marcablanca h1{
+        font-size: 60px;
+
+    }
+    .contenedor-blanca-textos p{
+        font-size: 50px;
+        color: #162A7D;
+    }
+    .contenedor-marcablanca > p{
+        font-size: 50px;
+        color: #162A7D;
+    }
+    .contenedor-marcablanca h2{
+        font-size: 60px;
+    }
+    
 }
