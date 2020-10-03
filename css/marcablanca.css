@@ -14,10 +14,9 @@
     color: #B70727;
 }
 .contenedor-marcablanca > p{
+    line-height: 70px;
     font-size: 30px;
     color: #162A7D;
-    
-
 }
 
 .linea-blanca{
@@ -25,6 +24,15 @@
     height: 2px;
     background-color:#B70727 ;
     margin:0 auto;
+}
+
+.mail-gerencia{
+    float: left;
+    font-size: 20px;
+    margin-top: 25px;
+}
+.mail-gerencia span {
+    color: #B70727;
 }
 @media (min-width: 768px){
     .contenedor-marcablanca h1{
@@ -51,20 +59,25 @@
     }
 }
 @media (min-width: 1920px){
+    .contenedor-blanca-textos{
+        padding: 20px 200px;
+    }
     .contenedor-marcablanca h1{
-        font-size: 60px;
+        font-size: 80px;
 
     }
     .contenedor-blanca-textos p{
-        font-size: 50px;
+        font-size: 40px;
         color: #162A7D;
     }
     .contenedor-marcablanca > p{
-        font-size: 50px;
+        font-size: 40px;
         color: #162A7D;
     }
     .contenedor-marcablanca h2{
-        font-size: 60px;
+        font-size:80px;
     }
+    
+    
     
 }
