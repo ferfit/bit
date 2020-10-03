@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+}
+
+
+/****beneficios****/
+h2.mb-3 {
+	font-size: 22px;
+    color: #B70727;
+}
+
+p.mb-1 {
+	font-size: 16px;
+    color: #142E70;
+}
+
+img.img {
+    width: 300px;
+}
+.row.gap-y {
+    margin-top: -15px;
+    margin-bottom: -15px;
+}
+
+img.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+}
+hr.lineahorizontal {
+    height: 7px;
+    border: 0;
+    background: transparent linear-gradient(90deg, #901827 0%, #711C3F 23%, #4B225E 56%, #342571 83%, #2C2778 100%) 0% 0% no-repeat padding-box;
+	width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h2.text-center1 {
+	text-align: center!important;
+	font-size: 30px;
+	text-decoration: #fff;
+	color: #B70727;
+}
+
+h2.text-center2 {
+	text-align: center!important;
+	font-size: 25px;
+	text-decoration: #fff;
+	color: #ffff;
+}
+
+h4.text-center3 {
+    font-size: 10px;
+}
+
+.datagrid table { 
+	border-collapse: collapse; 
+	text-align: left;
+	width: 100%; 
+} 
+.datagrid {
+	font: normal 12px/150% Arial, Helvetica, sans-serif; 
+	background: #fff; 
+	overflow: hidden; 
+	border: 1px solid #006699; 
+	-webkit-border-radius: 3px; 
+	-moz-border-radius: 3px; 
+	border-radius: 3px; 
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.datagrid table td, .datagrid table th { 
+	padding: 3px 10px; 
+}
+.datagrid table thead th {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #006699), color-stop(1, #00557F) );
+	background:-moz-linear-gradient( center top, #006699 5%, #00557F 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#006699', endColorstr='#00557F');
+	background-color:#006699;
+	color:#FFFFFF; 
+	font-size: 15px;
+	font-weight: bold; 
+	border-left: 1px solid #0070A8;
+}
+.datagrid table thead th:first-child { 
+	border: none; 
+}
+.datagrid table tbody td { 
+	color: #00496B;
+	border-left: 1px solid #E1EEF4;
+	font-size: 12px;
+	border-bottom: 1px solid #E1EEF4;
+	font-weight: normal; 
+}
+.datagrid table tbody td:first-child { 
+	border-left: none; 
+}
+.datagrid table tbody tr:last-child td { 
+	border-bottom: none; 
+}
+
+/****nosotros****/
+h4.mb-3 {
+	font-size: 16px;
+    color: #142E70;
+}
+	
+img.img3 {
+    width: 70%;
+}
+.col-md-6.ml-auto {
+    margin-right: 250px;
+}

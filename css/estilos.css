@@ -407,7 +407,7 @@ footer p{
     .wave{
         position: absolute;
         top: 700px;
-        height: 600px;
+      
     }
     .contenedor-titulos h1{
         font-size: 80px;
@@ -437,6 +437,7 @@ footer p{
     .carateristicas p{
         font-size: 16px;
         width: 280px;
+        
 
     }
     .beneficios{
